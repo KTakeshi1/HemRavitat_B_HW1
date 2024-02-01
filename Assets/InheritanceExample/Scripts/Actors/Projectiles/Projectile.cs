@@ -18,4 +18,9 @@ public class Projectile : MonoBehaviour
         Vector3 deltaPosition = transform.forward * _speed;
         _rb.MovePosition(_rb.position + deltaPosition);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }
 }

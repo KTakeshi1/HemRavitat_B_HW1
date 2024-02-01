@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4549945116455608439}
   - component: {fileID: 4549945116455608442}
   - component: {fileID: 4549945116455608437}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4549945116585624149}
   - component: {fileID: 4549945116585624155}
   - component: {fileID: 4549945116585624154}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hand_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4549945117273183398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 4549945117346969338}
   - component: {fileID: 4549945117346969336}
   - component: {fileID: 4549945117346969339}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hand_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,8 +294,8 @@ GameObject:
   - component: {fileID: 4549945117582617888}
   - component: {fileID: 4549945117582617917}
   - component: {fileID: 4549945117582617889}
-  - component: {fileID: 4549945117582617894}
-  m_Layer: 0
+  - component: {fileID: -2417460014545521043}
+  m_Layer: 3
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4549945117582617894
+--- !u!114 &-2417460014545521043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4549945117582617916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 642dcefa73db12d429bad45f1b0a4cfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b8d87b09eeba414590247c0c6e883e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 8

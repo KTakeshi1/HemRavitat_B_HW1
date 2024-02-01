@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4549945116455608439}
   - component: {fileID: 4549945116455608442}
   - component: {fileID: 4549945116455608437}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4549945116585624149}
   - component: {fileID: 4549945116585624155}
   - component: {fileID: 4549945116585624154}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hand_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4549945117273183398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 4549945117346969338}
   - component: {fileID: 4549945117346969336}
   - component: {fileID: 4549945117346969339}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hand_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 4549945117582617917}
   - component: {fileID: 4549945117582617889}
   - component: {fileID: 4549945117582617894}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crawler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
