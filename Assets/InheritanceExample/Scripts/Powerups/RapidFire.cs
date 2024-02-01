@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class RapidFire : PowerupBase
 {
-
     protected override void PowerUp()
     {
         StartCoroutine(IncreaseRate());
+        
+        
+    }
+
+    protected override void PowerDown()
+    {
+        turretRef.FireCooldown = 0.5f;
+        Destroy(gameObject);
         
         
     }
@@ -16,12 +23,11 @@ public class RapidFire : PowerupBase
     IEnumerator IncreaseRate()
     {
         turretRef.FireCooldown = 0.25f;
-        colliderRef.enabled = false;
-        renderRef.enabled = false;
+        
 
         yield return new WaitForSeconds(PowerupDuration);
 
-        turretRef.FireCooldown = 0.5f;
+        
         PowerDown();
     }
 }

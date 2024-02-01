@@ -146,9 +146,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988893389}
     m_Modifications:
+    - target: {fileID: 6796352425047523571, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012758, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
       propertyPath: m_Name
       value: Turret (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796352425085012758, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012758, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
       propertyPath: m_TagString
@@ -198,6 +206,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6796352425623406525, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796352426188119782, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796352426360024890, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
 --- !u!4 &266887480 stripped
@@ -216,7 +236,7 @@ GameObject:
   - component: {fileID: 464183795}
   - component: {fileID: 464183794}
   - component: {fileID: 464183796}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HitZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +453,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 961402889}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,7 +697,7 @@ GameObject:
   - component: {fileID: 1398556425}
   - component: {fileID: 1398556424}
   - component: {fileID: 1398556423}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boundary_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -809,7 +829,7 @@ GameObject:
   - component: {fileID: 1442816724}
   - component: {fileID: 1442816723}
   - component: {fileID: 1442816722}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boundary_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -949,7 +969,7 @@ GameObject:
   - component: {fileID: 1952543160}
   - component: {fileID: 1952543162}
   - component: {fileID: 1952543161}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1209,9 +1229,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988893389}
     m_Modifications:
+    - target: {fileID: 6796352425047523571, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012758, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
       propertyPath: m_Name
       value: Turret
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796352425085012758, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
       propertyPath: m_RootOrder
@@ -1256,6 +1284,18 @@ PrefabInstance:
     - target: {fileID: 6796352425085012759, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796352425623406525, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796352426188119782, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796352426360024890, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7c042b38e6302d4a991548d75d660a8, type: 3}

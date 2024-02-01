@@ -4,12 +4,13 @@ using UnityEngine;
 
 public abstract class PowerupBase : MonoBehaviour
 {
-    [SerializeField] public float PowerupDuration = 2.0f;
+    [SerializeField] protected float PowerupDuration = 2.0f;
     public TurretController turretRef;
     public MeshRenderer renderRef;
     public BoxCollider colliderRef;
 
     protected abstract void PowerUp();
+    protected abstract void PowerDown();
 
     public void Start() 
     {
@@ -21,13 +22,11 @@ public abstract class PowerupBase : MonoBehaviour
         Projectile projectile = other.GetComponent<Projectile>();
         if (projectile != null)
         {
+            colliderRef.enabled = false;
+            renderRef.enabled = false;
             PowerUp();
             
         }
     }
 
-    public void PowerDown()
-    {
-        Destroy(gameObject);
-    }
 }

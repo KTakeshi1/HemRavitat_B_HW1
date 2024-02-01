@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3341138209973792734}
   - component: {fileID: 3341138209973792735}
   - component: {fileID: 3341138209973792732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,6 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PowerupDuration: 2
+  turretRef: {fileID: 0}
   renderRef: {fileID: 3341138209973792734}
   colliderRef: {fileID: 3341138209973792735}
-  turretRef: {fileID: 0}

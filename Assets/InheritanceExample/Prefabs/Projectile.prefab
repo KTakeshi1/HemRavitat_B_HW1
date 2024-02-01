@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2335677745648801362}
   - component: {fileID: 2335677745648801363}
   - component: {fileID: 3235464112763484351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2335677745907943686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 2335677746053605379}
   - component: {fileID: 2335677746053605377}
   - component: {fileID: 2335677746053605376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
